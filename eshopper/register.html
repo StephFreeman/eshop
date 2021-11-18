@@ -152,21 +152,21 @@
                         <form action="#">
                             
                             <label>Datos de usuario</label>
-                            <input type="nombre" placeholder="Nombre" />
-                            <input type="usuario" placeholder="Usuario" />
-                            <input type="email" placeholder="E-mail"/>
-                            <input type="contraseña" placeholder="Contraseña"/>
-                            <input type="numero" placeholder="Numero"/>
+                            <input type="text" id="nombre" placeholder="Nombre" />
+                            <input type="text" id="usuario" placeholder="Usuario" />
+                            <input type="text" id="email" placeholder="E-mail"/>
+                            <input type="password" id="contraseña" placeholder="Contraseña"/>
+                            <input type="text" id="numero" placeholder="Numero"/>
                             <label>Dirección</label>
-                            <input type="calle" placeholder="Calle"/>
-                            <input type="colonia" placeholder="Colonia"/>
-                            <input type="cuidad" placeholder="Cuidad"/>
-                            <input type="estado" placeholder="Estado"/>
-                            <input type="pais" placeholder="Pais"/>
+                            <input type="text" id="calle" placeholder="Calle"/>
+                            <input type="text" id="colonia" placeholder="Colonia"/>
+                            <input type="text" id="ciudad" placeholder="Cuidad"/>
+                            <input type="text" id="estado" placeholder="Estado"/>
+                            <input type="text" id="pais" placeholder="Pais"/>
             
     
                             
-                            <button type="submit" class="btn btn-default">Registrar</button>
+                            <button type="submit"  onclick="register()" class="btn btn-default">Registrar</button>
                         </form>
                     </div><!--/login form-->
                 </div>
@@ -193,5 +193,6 @@
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
+	<script src="js/tienda.js"></script>
 </body>
 </html>
