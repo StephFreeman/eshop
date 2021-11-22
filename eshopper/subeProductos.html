@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Bolsas artesanales</title>
+    <title>Agregar bolsa | E-Shopper</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -25,7 +25,6 @@
 </head><!--/head-->
 
 <body>
-	
 	<header id="header"><!--header-->
 		<div class="header_top"><!--header_top-->
 			<!-- <div class="container">
@@ -87,10 +86,10 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<!--<li><a href=""><i class="fa fa-user"></i> Cuenta</a></li>-->
+								<li><a href=""><i class="fa fa-user"></i> Cuenta</a></li>
 								<!-- <li><a href=""><i class="fa fa-star"></i> Wishlist</a></li> -->
-								<!--<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Pedidos</a></li>-->
-								<!--<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito</a></li>-->
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Pedidos</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito</a></li>
 								<li><a href="login.html"><i class="fa fa-lock"></i> Iniciar sesión / Registrarse</a></li>
 							</ul>
 						</div>
@@ -113,20 +112,20 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html" class="active">Home</a></li>
 								<li class="dropdown"><a href="#">Tienda<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.html">Catálogo</a></li>
-										<!--<li><a href="product-details.html">Productos</a></li> -->
-										<!--<li><a href="checkout.html">Pedidos</a></li> -->
-										<!--<li><a href="cart.html" class="active">Carrito</a></li> -->
-										<!--<li><a href="login.html">Iniciar sesión / Registrarse</a></li> -->
+										<li><a href="product-details.html">Productos</a></li> 
+										<li><a href="checkout.html">Pedidos</a></li> 
+										<li><a href="cart.html">Carrito</a></li> 
+										<li><a href="login.html">Iniciar sesión / Registrarse</a></li> 
                                     </ul>
                                 </li> 
-								<li class="dropdown"><a href="#">¿Quiénes somos?</i></a>
+								<li class="dropdown"><a href="#">¿Quiénes somos?<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <!--<li><a href="blog.html">Blog List</a></li>
-										<li><a href="blog-single.html">Blog Single</a></li>-->
+                                        <li><a href="blog.html">Blog List</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
                                     </ul>
                                 </li> 
 								<li><a href="contact-us.html">Contacto</a></li>
@@ -143,90 +142,48 @@
 		</div><!--/header-bottom-->
 	</header><!--/header-->
 	
-	<section id="slider"><!--slider-->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
-						</ol>
-						
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-sm-6">
-									<h1><span>P</span>oblanita</h1>
-									<h2>Bolsas hechas por manos artesanas</h2>
-									<p> </p>
-									<!-- <button type="button" class="btn btn-default get">Comprar ahora</button> -->
-									<a href="shop.html"><button type ="button" class="btn btn-default get">Comprar ahora</button></a>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/1.jpg" class="girl img-responsive" alt="" />
-									<!-- <img src="images/home/pricing.png"  class="pricing" alt="" /> -->
-								</div>
-							</div>
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>P</span>oblanita</h1>
-									<h2>Diseños unicos</h2>
-									<p> </p>
-									<!-- <button type="button" class="btn btn-default get">Comprar ahora</button> -->
-									<a href="shop.html"><button type ="button" class="btn btn-default get">Comprar ahora</button></a>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/2.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png"  class="pricing" alt="" />
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>P</span>oblanita</h1>
-									<h2>Empresa amigable con el medio ambiente</h2>
-									<p> </p>
-									<!-- <button type="button" class="btn btn-default get">Comprar ahora</button> -->
-									<a href="shop.html"><button type ="button" class="btn btn-default get">Comprar ahora</button></a>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png" class="pricing" alt="" />
-								</div>
-							</div>
-							
-						</div>
-						
-						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-					
+	<section id="form"><!--form-->
+		
+		
+				<div class="col-sm-4 col-sm-offset-4">
+					<div class="login-form"><!--login form-->
+
+                    <form action="http://localhost:8080/auth/upload" method="POST" enctype="multipart/form-data" >
+                        <h1>Agregar nueva bolsa</h1><br>
+
+                        <label>Ingresa el modelo de la bolsabolsa</label>
+                        <input type="text" id="modelo" placeholder="Modelo" /><br>
+                        <label>Ingresa el precio de venta</label>
+                        <input type="text" id="precio" placeholder="Precio de venta" /><br>
+                        <label>Ingresa la cantidad de bolsas disponibles</label>
+                        <input type="text" id="cantidad" placeholder="Disponibles"/><br>
+                        <label>Ingresa una descripción</label>
+                        <input type="text" id="descripcion" placeholder="Descripción"/><br>
+                        <label>Selecciona la imagen que necesitas</label><br>
+                       
+                    
+                            <input type="file" id="file"><br><br>
+                            <button type="button" onclick="uploadFile()">subir</button>
+                           <!--<input type="submit" value="Cargar"/>-->
+                        </form>
+					</div><!--/login form-->
 				</div>
-			</div>
-		</div>
-	</section><!--/slider-->
-	
-	<section>
+			
 		
-	</section>
+	</section><!--/form-->
 	
-	<footer id="footer"><!--Footer-->
 	
-		
+	<footer id="footer"><!--Footer-->	
 	</footer><!--/Footer-->
 	
 
   
     <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.scrollUp.min.js"></script>
 	<script src="js/price-range.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
+	<script src="js/tienda.js"></script>
 </body>
 </html>
